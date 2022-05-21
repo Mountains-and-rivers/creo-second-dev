@@ -45,7 +45,7 @@ python makepy.py
 
 ![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/coreAPI.png)
 
-选择 Creo VB API Type Library Creo Parametric
+选择 Creo VB API Type Library For Creo Parametric 4.0 {1.0}
 
 改命令会在 C:\Users\wgl\AppData\Local\Temp\gen_py\3.9目录下生成
 
