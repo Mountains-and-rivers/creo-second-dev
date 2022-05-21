@@ -24,7 +24,7 @@ cero 4.0 M060
 2,注册COM服务器
 
 ```
-以管理员权限运行Creo安装目录下子目录“Parametric/bin”中的vb_api_register.bat文件即可
+以管理员权限运行Creo安装目录下子目录"Parametric/bin"中的vb_api_register.bat文件即可
 ```
 
 3，安装pywin32
