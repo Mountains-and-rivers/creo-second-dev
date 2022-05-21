@@ -13,7 +13,7 @@ cero 4.0 M060
 
 由于Creo没有提供专门用于Python的开发工具包，所以只能考虑借用现有的开发工具包。VBAPI实际是对Creo二次开发函数的COM封装，所以一般Windows下可以调用COM组件的语言其实都可以利用VBAPI进行Creo的二次开发。Python可以使用一个第三方库win32com操作COM对象，故Python可以利用VBAPI二次开发工具包进行二次开发。
 
-1，VBAPI环境配置
+1, VBAPI环境配置
 
 ```
 添加PRO_COMM_MSG_EXE到环境变量
@@ -21,13 +21,13 @@ cero 4.0 M060
 值为: D:\PRTC\PTC\Creo 4.0\M060\Common Files\x86e_win64\obj\pro_comm_msg.exe
 ```
 
-2,注册COM服务器
+2, 注册COM服务器
 
 ```
 以管理员权限运行Creo安装目录下子目录"Parametric/bin"中的vb_api_register.bat文件即可
 ```
 
-3，安装pywin32
+3, 安装pywin32
 
 ```
 pip3 install pywin32 -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple
