@@ -133,7 +133,7 @@ model.DeleteRelations()
 
 ### 5,python 二次开发creo demo
 
-5.1 pyCharm 设置
+##### 5.1 pyCharm 设置
 
 由于VBAPI.py 文件较大，因此要修改以下参数为99999
 
@@ -230,6 +230,24 @@ win.mainloop()
 效果如下：
 
 ![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/pythonDemo.png)
+
+##### 5.1 转换前后API对比
+
+vb API
+
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/drawing.png)
+
+注意看IpfcBaseSession和CreateDrawingFromTemplate在VBAPI.py中的位置
+
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/v1.png)
+
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/v2.png)
+
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/v3.png)
+
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/v4.png)
+
+uuid 和函数的对应关系搞清楚 就可以找到对应的vb api 接口  进行绘图了。结合第4节 关键技术理解 待探究
 
 ### 6，自动绘图 vb api （2.0 M060 版本）
 
