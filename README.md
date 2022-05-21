@@ -43,11 +43,11 @@ python makepy.py
 
 弹框如下：
 
-图片
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/vbapi.png)
 
 选择 Creo VB API Type Library Creo Parametric
 
-改命令会在 C:\Users\王贵林\AppData\Local\Temp\gen_py\3.9目录下生成
+改命令会在 C:\Users\wgl\AppData\Local\Temp\gen_py\3.9目录下生成
 
 176453F2-6934-4304-8C9D-126D98C1700Ex0x1x0.py  这就是转换后的vb api
 
@@ -133,7 +133,7 @@ model.DeleteRelations()
 
 由于VBAPI.py 文件较大，因此要修改以下参数为99999
 
-图片
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/coreAPI.png)
 
 5.2 python 调用 vb api
 
@@ -225,7 +225,7 @@ win.mainloop()
 
 效果如下：
 
-图片
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/vbapi.png)
 
 ### 6，自动绘图 vb api （2.0 M060 版本）
 
@@ -233,7 +233,7 @@ Creo二次开发自动出图一直是热烈讨论的话题。出图的工作是�
 
 ##### 6.0 查看creo 下的vb api
 
-
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/1.gif)
 
 ##### 6.1 同名绘图的创建
 
@@ -344,7 +344,7 @@ status = _setDisplayStyle(drawing, top_view, PRO_DISPSTYLE_HIDDEN_LINE);
 
 创建三视图效果如下图所示：
 
-图片
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/2.gif)
 
 ##### 6.3.3 剖视图的创建
 
@@ -375,7 +375,7 @@ if (status == PRO_TK_NO_ERROR)
 
 创建辅助视图效果如下图所示：
 
-图片
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/3.gif)
 
 ##### 6.3.5 辅助视图的创建
 
@@ -512,7 +512,7 @@ if (status == PRO_TK_NO_ERROR)
 
 创建辅助视图效果如下图所示：
 
-
+![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/4.gif)
 
 6.3.6 旋转剖视图
 
