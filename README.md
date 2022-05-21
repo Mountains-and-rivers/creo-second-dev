@@ -237,6 +237,12 @@ Creo二次开发自动出图一直是热烈讨论的话题。出图的工作是�
 
 ##### 6.0 查看creo 下的vb api
 
+路径：
+
+```
+D:\PRTC\PTC\Creo 4.0\M060\Common Files\vbapi\vbapidoc
+```
+
 ![image](https://github.com/Mountains-and-rivers/creo-second-dev/blob/main/images/vbapi.png)
 
 ##### 6.1 同名绘图的创建
