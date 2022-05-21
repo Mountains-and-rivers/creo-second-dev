@@ -47,9 +47,13 @@ python makepy.py
 
 选择 Creo VB API Type Library For Creo Parametric 4.0 {1.0}
 
-改命令会在 C:\Users\wgl\AppData\Local\Temp\gen_py\3.9目录下生成
+该命令会在 C:\Users\wgl\AppData\Local\Temp\gen_py\3.9目录下生成文件:
 
-176453F2-6934-4304-8C9D-126D98C1700Ex0x1x0.py  这就是转换后的python版的vb api
+```
+176453F2-6934-4304-8C9D-126D98C1700Ex0x1x0.py  
+```
+
+这就是转换后的python版的vb api
 
 改名为VBAPI.py  方便python 调用。
 
