@@ -36,7 +36,7 @@ pip3 install pywin32 -i http://pypi.douban.com/simple/ --trusted-host=pypi.douba
 4, 配置pywin32
 
 ```
-cd C:\Users\王贵林\PycharmProjects\testlocust\venv\Lib\site-packages\win32com\client
+cd C:\Users\wgl\PycharmProjects\testlocust\venv\Lib\site-packages\win32com\client
 
 python makepy.py
 ```
